@@ -77,8 +77,6 @@ Este arquivo documenta o projeto, descrevendo a estrutura, tecnologias usadas, e
    ```bash
    git clone <URL_DO_REPOSITORIO>
 
-
-
 ---
 
 ## Estrutura de Pastas
