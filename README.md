@@ -1,61 +1,5 @@
 # Estrutura de Projeto HTML, CSS e JavaScript
 
-Este projeto utiliza uma estrutura organizada para facilitar o desenvolvimento, manutenção e escalabilidade. Abaixo está a descrição de como as pastas e arquivos estão organizados.
-
----
-
-## Estrutura de Pastas
-
-```plaintext
-project/
-│
-├── index.html                # Página principal do projeto
-├── about.html                # Outras páginas (exemplo)
-├── contact.html              # Outras páginas (exemplo)
-│
-├── assets/                   # Arquivos estáticos (imagens, fontes, etc.)
-│   ├── images/               # Imagens do projeto
-│   │   ├── logo.png
-│   │   └── background.jpg
-│   │
-│   ├── fonts/                # Fontes personalizadas
-│   │   └── custom-font.woff2
-│   │
-│   └── icons/                # Ícones (SVG ou outros formatos)
-│       └── favicon.ico
-│
-├── css/                      # Arquivos CSS
-│   ├── styles.css            # Estilos gerais
-│   ├── bootstrap.min.css     # Bootstrap (se não usar CDN)
-│   ├── animations.css        # Estilos para animações (como Animate.css)
-│   └── custom.css            # Estilos personalizados
-│
-├── js/                       # Scripts JavaScript
-│   ├── main.js               # Scripts principais
-│   ├── bootstrap.bundle.min.js # Bootstrap JS (se não usar CDN)
-│   ├── animations.js         # Scripts para animações (se necessário)
-│   └── helpers.js            # Funções utilitárias
-│
-├── scss/                     # Arquivos SCSS (se usar pré-processador)
-│   ├── _variables.scss       # Variáveis de estilo
-│   ├── _mixins.scss          # Mixins reutilizáveis
-│   ├── _bootstrap.scss       # Estilos sobreescritos do Bootstrap
-│   └── main.scss             # Arquivo principal que compila tudo
-│
-├── vendor/                   # Bibliotecas externas (se não usar CDN)
-│   ├── animate.css/          # Biblioteca de animações
-│   │   └── animate.min.css
-│   └── bootstrap/            # Arquivos Bootstrap locais
-│       ├── css/
-│       │   └── bootstrap.min.css
-│       └── js/
-│           └── bootstrap.bundle.min.js
-│
-└── README.md                 # Documentação do projeto
-````
-
-# Estrutura de Projeto HTML, CSS e JavaScript
-
 Este documento explica a estrutura do projeto, incluindo os diretórios e arquivos principais, e como eles contribuem para a organização, escalabilidade e manutenção do projeto.
 
 ---
@@ -132,4 +76,58 @@ Este arquivo documenta o projeto, descrevendo a estrutura, tecnologias usadas, e
 1. Clone o repositório:
    ```bash
    git clone <URL_DO_REPOSITORIO>
+
+
+
+---
+
+## Estrutura de Pastas
+
+```plaintext
+project/
+│
+├── index.html                # Página principal do projeto
+├── about.html                # Outras páginas (exemplo)
+├── contact.html              # Outras páginas (exemplo)
+│
+├── assets/                   # Arquivos estáticos (imagens, fontes, etc.)
+│   ├── images/               # Imagens do projeto
+│   │   ├── logo.png
+│   │   └── background.jpg
+│   │
+│   ├── fonts/                # Fontes personalizadas
+│   │   └── custom-font.woff2
+│   │
+│   └── icons/                # Ícones (SVG ou outros formatos)
+│       └── favicon.ico
+│
+├── css/                      # Arquivos CSS
+│   ├── styles.css            # Estilos gerais
+│   ├── bootstrap.min.css     # Bootstrap (se não usar CDN)
+│   ├── animations.css        # Estilos para animações (como Animate.css)
+│   └── custom.css            # Estilos personalizados
+│
+├── js/                       # Scripts JavaScript
+│   ├── main.js               # Scripts principais
+│   ├── bootstrap.bundle.min.js # Bootstrap JS (se não usar CDN)
+│   ├── animations.js         # Scripts para animações (se necessário)
+│   └── helpers.js            # Funções utilitárias
+│
+├── scss/                     # Arquivos SCSS (se usar pré-processador)
+│   ├── _variables.scss       # Variáveis de estilo
+│   ├── _mixins.scss          # Mixins reutilizáveis
+│   ├── _bootstrap.scss       # Estilos sobreescritos do Bootstrap
+│   └── main.scss             # Arquivo principal que compila tudo
+│
+├── vendor/                   # Bibliotecas externas (se não usar CDN)
+│   ├── animate.css/          # Biblioteca de animações
+│   │   └── animate.min.css
+│   └── bootstrap/            # Arquivos Bootstrap locais
+│       ├── css/
+│       │   └── bootstrap.min.css
+│       └── js/
+│           └── bootstrap.bundle.min.js
+│
+└── README.md                 # Documentação do projeto
+````
 
